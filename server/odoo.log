@@ -1,0 +1,372 @@
+2023-09-24 06:52:20,640 5496 INFO testing_local odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2023-09-24 06:52:20,664 5496 INFO testing_local odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2023-09-24 06:52:20,713 5496 INFO testing_local odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2023-09-24 06:52:20,766 5496 INFO testing_local odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2023-09-24 06:52:34,820 5496 INFO testing_local odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2023-09-24 06:52:34,828 5496 INFO testing_local odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2023-09-24 06:52:34,843 5496 INFO testing_local odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2023-09-24 06:52:34,858 5496 INFO testing_local odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2023-09-24 06:52:34,875 5496 INFO testing_local odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2023-09-24 06:52:34,887 5496 INFO testing_local odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2023-09-24 06:54:09,961 5496 INFO ? odoo.service.server: Initiating shutdown 
+2023-09-24 06:54:09,962 5496 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-09-24 06:54:13,749 17484 INFO ? odoo: Odoo version 16.0-20230917 
+2023-09-24 06:54:13,749 17484 INFO ? odoo: Using configuration file at C:\Users\DTO PUSDATIN\Desktop\server\odoo.conf 
+2023-09-24 06:54:13,749 17484 INFO ? odoo: addons paths: ['C:\\Users\\DTO PUSDATIN\\Desktop\\server\\odoo\\addons', 'c:\\users\\dto pusdatin\\desktop\\sessions\\addons\\16.0', 'c:\\users\\dto pusdatin\\desktop\\server\\odoo\\addons'] 
+2023-09-24 06:54:13,749 17484 INFO ? odoo: database: hasby08@localhost:5432 
+2023-09-24 06:54:14,265 17484 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\DTO PUSDATIN\Desktop\thirdparty\wkhtmltopdf.exe 
+2023-09-24 06:54:16,201 17484 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-P93BT1U9:8069 
+2023-09-24 06:54:18,219 17484 INFO testing_local odoo.modules.loading: loading 1 modules... 
+2023-09-24 06:54:18,254 17484 INFO testing_local odoo.modules.loading: 1 modules loaded in 0.03s, 0 queries (+0 extra) 
+2023-09-24 06:54:18,491 17484 INFO testing_local odoo.modules.loading: loading 51 modules... 
+2023-09-24 06:54:21,337 17484 INFO testing_local odoo.modules.loading: 51 modules loaded in 2.84s, 0 queries (+0 extra) 
+2023-09-24 06:54:21,746 17484 INFO testing_local odoo.modules.loading: Modules loaded. 
+2023-09-24 06:54:21,761 17484 INFO testing_local odoo.modules.registry: Registry loaded in 3.757s 
+2023-09-24 06:54:21,826 17484 INFO testing_local odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-09-24 06:54:21,866 17484 INFO testing_local odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-09-24 06:54:22,826 17484 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:22] "GET /websocket HTTP/1.1" 101 - 22 0.135 4.691
+2023-09-24 06:54:22,839 17484 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:22] "GET /websocket HTTP/1.1" 101 - 6 0.050 3.097
+2023-09-24 06:54:22,863 17484 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-09-24 06:54:28,346 17484 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:28] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 304 - 0 0.000 4.031
+2023-09-24 06:54:28,356 17484 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:28] "GET /stock/static/description/icon.png HTTP/1.1" 304 - 0 0.000 4.038
+2023-09-24 06:54:28,361 17484 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:28] "GET /base/static/description/icon.png HTTP/1.1" 304 - 0 0.000 3.956
+2023-09-24 06:54:28,364 17484 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:28] "GET /hr/static/description/icon.png HTTP/1.1" 304 - 0 0.000 4.064
+2023-09-24 06:54:28,369 17484 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:28] "GET /l10n_ar_website_sale/static/description/icon.png HTTP/1.1" 304 - 0 0.000 3.963
+2023-09-24 06:54:28,369 17484 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:28] "GET /project/static/description/icon.png HTTP/1.1" 304 - 0 0.000 4.083
+2023-09-24 06:54:28,479 17484 INFO ? odoo.service.server: Initiating shutdown 
+2023-09-24 06:54:28,479 17484 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-09-24 06:54:29,017 17484 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2023-09-24 06:54:32,165 18716 INFO ? odoo: Odoo version 16.0-20230917 
+2023-09-24 06:54:32,165 18716 INFO ? odoo: Using configuration file at C:\Users\DTO PUSDATIN\Desktop\server\odoo.conf 
+2023-09-24 06:54:32,165 18716 INFO ? odoo: addons paths: ['C:\\Users\\DTO PUSDATIN\\Desktop\\server\\odoo\\addons', 'c:\\users\\dto pusdatin\\desktop\\sessions\\addons\\16.0', 'c:\\users\\dto pusdatin\\desktop\\server\\odoo\\addons'] 
+2023-09-24 06:54:32,165 18716 INFO ? odoo: database: hasby08@localhost:5432 
+2023-09-24 06:54:32,418 18716 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\DTO PUSDATIN\Desktop\thirdparty\wkhtmltopdf.exe 
+2023-09-24 06:54:32,883 18716 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-P93BT1U9:8069 
+2023-09-24 06:54:33,072 18716 INFO testing_local odoo.modules.loading: loading 1 modules... 
+2023-09-24 06:54:33,086 18716 INFO testing_local odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-09-24 06:54:33,183 18716 INFO testing_local odoo.modules.loading: loading 51 modules... 
+2023-09-24 06:54:35,025 18716 INFO testing_local odoo.modules.loading: 51 modules loaded in 1.84s, 0 queries (+0 extra) 
+2023-09-24 06:54:35,416 18716 INFO testing_local odoo.modules.loading: Modules loaded. 
+2023-09-24 06:54:35,426 18716 INFO testing_local odoo.modules.registry: Registry loaded in 2.453s 
+2023-09-24 06:54:35,495 18716 INFO testing_local odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-09-24 06:54:35,531 18716 INFO testing_local odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-09-24 06:54:36,496 18716 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:36] "GET /websocket HTTP/1.1" 101 - 22 0.076 3.453
+2023-09-24 06:54:36,499 18716 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:36] "GET /websocket HTTP/1.1" 101 - 6 0.048 3.245
+2023-09-24 06:54:36,526 18716 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-09-24 06:54:38,357 18716 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:38] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 44 0.086 1.114
+2023-09-24 06:54:38,378 18716 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:38] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.010 0.001
+2023-09-24 06:54:38,806 18716 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:38] "GET /product/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.011
+2023-09-24 06:54:38,819 18716 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:38] "GET /website_sale_comparison/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.023
+2023-09-24 06:54:38,821 18716 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:38] "GET /website_sale_digital/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.020
+2023-09-24 06:54:38,824 18716 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:38] "GET /website_sale_stock/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.021
+2023-09-24 06:54:38,827 18716 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:38] "GET /website_sale_wishlist/static/description/icon.png HTTP/1.1" 304 - 0 0.000 0.021
+2023-09-24 06:54:41,126 18716 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Products & Pricelists'] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:54:41,126 18716 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Products & Pricelists'] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:54:41,126 18716 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Products & Pricelists'] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:54:42,326 18716 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:54:42,424 18716 INFO testing_local odoo.modules.loading: loading 1 modules... 
+2023-09-24 06:54:42,432 18716 INFO testing_local odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-09-24 06:54:42,456 18716 INFO testing_local odoo.modules.loading: updating modules list 
+2023-09-24 06:54:42,456 18716 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-09-24 06:54:43,466 18716 INFO testing_local odoo.modules.loading: loading 51 modules... 
+2023-09-24 06:54:43,516 18716 INFO testing_local odoo.modules.loading: Loading module product (32/51) 
+2023-09-24 06:54:43,735 18716 INFO testing_local odoo.modules.registry: module product: creating or updating database tables 
+2023-09-24 06:54:44,346 18716 INFO testing_local odoo.modules.loading: loading product/data/product_data.xml 
+2023-09-24 06:54:44,390 18716 INFO testing_local odoo.modules.loading: loading product/security/product_security.xml 
+2023-09-24 06:54:44,483 18716 INFO testing_local odoo.modules.loading: loading product/security/ir.model.access.csv 
+2023-09-24 06:54:44,699 18716 ERROR testing_local odoo.sql_db: bad query: INSERT INTO "ir_model_access" ("active", "create_date", "create_uid", "group_id", "model_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (true, '2023-09-24 06:54:42.415954', 1, 1, DEFAULT, 'Access_Product_Import_Wizard', true, true, false, true, '2023-09-24 06:54:42.415954', 1), (true, '2023-09-24 06:54:42.415954', 1, 1, 361, 'access_product_template', true, true, true, true, '2023-09-24 06:54:42.415954', 1) RETURNING "id"
+ERROR: null value in column "model_id" violates not-null constraint
+DETAIL:  Failing row contains (581, null, 1, 1, 1, Access_Product_Import_Wizard, t, t, t, t, f, 2023-09-24 06:54:42.415954, 2023-09-24 06:54:42.415954).
+ 
+2023-09-24 06:54:44,716 18716 ERROR testing_local odoo.sql_db: bad query: INSERT INTO "ir_model_access" ("active", "create_date", "create_uid", "group_id", "name", "perm_create", "perm_read", "perm_unlink", "perm_write", "write_date", "write_uid") VALUES (true, '2023-09-24 06:54:42.415954', 1, 1, 'Access_Product_Import_Wizard', true, true, false, true, '2023-09-24 06:54:42.415954', 1) RETURNING "id"
+ERROR: null value in column "model_id" violates not-null constraint
+DETAIL:  Failing row contains (582, null, 1, 1, 1, Access_Product_Import_Wizard, t, t, t, t, f, 2023-09-24 06:54:42.415954, 2023-09-24 06:54:42.415954).
+ 
+2023-09-24 06:54:45,249 18716 WARNING testing_local odoo.modules.loading: Transient module states were reset 
+2023-09-24 06:54:45,267 18716 ERROR testing_local odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\tools\convert.py", line 759, in convert_file
+    convert_csv_import(cr, module, pathname, fp.read(), idref, mode, noupdate)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\tools\convert.py", line 805, in convert_csv_import
+    raise Exception(_('Module loading %s failed: file %s could not be processed:\n %s') % (module, fname, warning_msg))
+Exception: Module loading product failed: file product\security/ir.model.access.csv could not be processed:
+ No matching record found for external id 'model_product_import_wizard' in field 'Model'
+Missing required value for the field 'Model' (model_id)
+2023-09-24 06:54:45,278 18716 ERROR testing_local odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\http.py", line 1998, in __call__
+    response = request._serve_db()
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\http.py", line 1584, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\service\model.py", line 133, in retrying
+    result = func()
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\http.py", line 1611, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\http.py", line 1815, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\addons\base\models\ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\http.py", line 697, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\addons\web\controllers\dataset.py", line 46, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\addons\web\controllers\dataset.py", line 33, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\api.py", line 461, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\api.py", line 448, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-80>", line 2, in button_immediate_upgrade
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\addons\base\models\ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\addons\base\models\ir_module.py", line 659, in button_immediate_upgrade
+    return self._button_immediate_function(type(self).button_upgrade)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\addons\base\models\ir_module.py", line 592, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "<decorator-gen-14>", line 2, in new
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\tools\func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\registry.py", line 90, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 484, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 372, in load_marked_modules
+    loaded, processed = load_module_graph(
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 231, in load_module_graph
+    load_data(cr, idref, mode, kind='data', package=package)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\modules\loading.py", line 71, in load_data
+    tools.convert_file(cr, package.name, filename, idref, mode, noupdate, kind)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\tools\convert.py", line 759, in convert_file
+    convert_csv_import(cr, module, pathname, fp.read(), idref, mode, noupdate)
+  File "C:\Users\DTO PUSDATIN\Desktop\server\odoo\tools\convert.py", line 805, in convert_csv_import
+    raise Exception(_('Module loading %s failed: file %s could not be processed:\n %s') % (module, fname, warning_msg))
+Exception: Module loading product failed: file product\security/ir.model.access.csv could not be processed:
+ No matching record found for external id 'model_product_import_wizard' in field 'Model'
+Missing required value for the field 'Model' (model_id)
+2023-09-24 06:54:45,278 18716 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:54:45] "POST /web/dataset/call_button HTTP/1.1" 200 - 2849 2.173 1.990
+2023-09-24 06:55:09,715 18716 INFO testing_local odoo.modules.loading: loading 1 modules... 
+2023-09-24 06:55:09,732 18716 INFO testing_local odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2023-09-24 06:55:09,736 18716 INFO testing_local odoo.modules.loading: loading 51 modules... 
+2023-09-24 06:55:09,876 18716 INFO testing_local odoo.modules.loading: 51 modules loaded in 0.14s, 0 queries (+0 extra) 
+2023-09-24 06:55:10,226 18716 INFO testing_local odoo.modules.loading: Modules loaded. 
+2023-09-24 06:55:10,226 18716 INFO testing_local odoo.modules.registry: Registry loaded in 0.540s 
+2023-09-24 06:55:12,149 18716 INFO ? odoo.service.server: Initiating shutdown 
+2023-09-24 06:55:12,149 18716 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2023-09-24 06:55:12,617 18716 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2023-09-24 06:55:15,786 8292 INFO ? odoo: Odoo version 16.0-20230917 
+2023-09-24 06:55:15,786 8292 INFO ? odoo: Using configuration file at C:\Users\DTO PUSDATIN\Desktop\server\odoo.conf 
+2023-09-24 06:55:15,786 8292 INFO ? odoo: addons paths: ['C:\\Users\\DTO PUSDATIN\\Desktop\\server\\odoo\\addons', 'c:\\users\\dto pusdatin\\desktop\\sessions\\addons\\16.0', 'c:\\users\\dto pusdatin\\desktop\\server\\odoo\\addons'] 
+2023-09-24 06:55:15,786 8292 INFO ? odoo: database: hasby08@localhost:5432 
+2023-09-24 06:55:15,996 8292 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\DTO PUSDATIN\Desktop\thirdparty\wkhtmltopdf.exe 
+2023-09-24 06:55:16,605 8292 INFO ? odoo.service.server: HTTP service (werkzeug) running on LAPTOP-P93BT1U9:8069 
+2023-09-24 06:55:16,796 8292 INFO testing_local odoo.modules.loading: loading 1 modules... 
+2023-09-24 06:55:16,808 8292 INFO testing_local odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-09-24 06:55:16,885 8292 INFO testing_local odoo.modules.loading: loading 51 modules... 
+2023-09-24 06:55:18,706 8292 INFO testing_local odoo.modules.loading: 51 modules loaded in 1.82s, 0 queries (+0 extra) 
+2023-09-24 06:55:19,127 8292 INFO testing_local odoo.modules.loading: Modules loaded. 
+2023-09-24 06:55:19,146 8292 INFO testing_local odoo.modules.registry: Registry loaded in 2.443s 
+2023-09-24 06:55:19,206 8292 INFO testing_local odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-09-24 06:55:19,256 8292 INFO testing_local odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-09-24 06:55:20,224 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:20] "GET /websocket HTTP/1.1" 101 - 22 0.076 3.449
+2023-09-24 06:55:20,224 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:20] "GET /websocket HTTP/1.1" 101 - 4 0.030 3.489
+2023-09-24 06:55:20,256 8292 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2023-09-24 06:55:21,106 8292 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['Products & Pricelists'] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:55:21,106 8292 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['Products & Pricelists'] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:55:21,106 8292 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['Products & Pricelists'] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:55:22,176 8292 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user hasbyramadhan090@gmail.com #2 via 127.0.0.1 
+2023-09-24 06:55:22,256 8292 INFO testing_local odoo.modules.loading: loading 1 modules... 
+2023-09-24 06:55:22,265 8292 INFO testing_local odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2023-09-24 06:55:22,281 8292 INFO testing_local odoo.modules.loading: updating modules list 
+2023-09-24 06:55:22,281 8292 INFO testing_local odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2023-09-24 06:55:23,846 8292 INFO testing_local odoo.modules.loading: loading 51 modules... 
+2023-09-24 06:55:23,938 8292 INFO testing_local odoo.modules.loading: Loading module product (32/51) 
+2023-09-24 06:55:24,356 8292 INFO testing_local odoo.modules.registry: module product: creating or updating database tables 
+2023-09-24 06:55:25,486 8292 INFO testing_local odoo.modules.loading: loading product/data/product_data.xml 
+2023-09-24 06:55:25,539 8292 INFO testing_local odoo.modules.loading: loading product/security/product_security.xml 
+2023-09-24 06:55:25,638 8292 INFO testing_local odoo.modules.loading: loading product/security/ir.model.access.csv 
+2023-09-24 06:55:25,722 8292 INFO testing_local odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2023-09-24 06:55:25,796 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [105] 
+2023-09-24 06:55:25,821 8292 INFO testing_local odoo.modules.loading: loading product/views/product_views.xml 
+2023-09-24 06:55:26,018 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [106, 107, 108] 
+2023-09-24 06:55:26,198 8292 INFO testing_local odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2023-09-24 06:55:26,282 8292 INFO testing_local odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2023-09-24 06:55:26,376 8292 INFO testing_local odoo.modules.loading: loading product/views/product_category_views.xml 
+2023-09-24 06:55:26,466 8292 INFO testing_local odoo.modules.loading: loading product/views/product_packaging_views.xml 
+2023-09-24 06:55:26,621 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [109, 110] 
+2023-09-24 06:55:26,639 8292 INFO testing_local odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2023-09-24 06:55:26,739 8292 INFO testing_local odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2023-09-24 06:55:26,806 8292 INFO testing_local odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2023-09-24 06:55:26,936 8292 INFO testing_local odoo.modules.loading: loading product/views/product_template_views.xml 
+2023-09-24 06:55:27,166 8292 INFO testing_local odoo.modules.loading: loading product/views/product_tag_views.xml 
+2023-09-24 06:55:27,236 8292 INFO testing_local odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2023-09-24 06:55:27,265 8292 INFO testing_local odoo.modules.loading: loading product/views/res_partner_views.xml 
+2023-09-24 06:55:27,356 8292 INFO testing_local odoo.modules.loading: loading product/report/product_reports.xml 
+2023-09-24 06:55:27,442 8292 INFO testing_local odoo.modules.loading: loading product/report/product_product_templates.xml 
+2023-09-24 06:55:27,606 8292 INFO testing_local odoo.modules.loading: loading product/report/product_template_templates.xml 
+2023-09-24 06:55:27,676 8292 INFO testing_local odoo.modules.loading: loading product/report/product_packaging.xml 
+2023-09-24 06:55:27,748 8292 INFO testing_local odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2023-09-24 06:55:27,849 8292 INFO testing_local odoo.modules.loading: Module product: loading demo 
+2023-09-24 06:55:27,849 8292 INFO testing_local odoo.modules.loading: loading product/data/product_demo.xml 
+2023-09-24 06:55:28,226 8292 INFO testing_local odoo.modules.loading: Module product loaded in 4.29s, 1308 queries (+1308 other) 
+2023-09-24 06:55:28,266 8292 INFO testing_local odoo.modules.loading: Loading module stock (48/51) 
+2023-09-24 06:55:28,967 8292 INFO testing_local odoo.modules.registry: module stock: creating or updating database tables 
+2023-09-24 06:55:30,566 8292 INFO testing_local odoo.modules.loading: loading stock/security/stock_security.xml 
+2023-09-24 06:55:30,964 8292 INFO testing_local odoo.modules.loading: loading stock/security/ir.model.access.csv 
+2023-09-24 06:55:31,396 8292 INFO testing_local odoo.modules.loading: loading stock/data/digest_data.xml 
+2023-09-24 06:55:31,466 8292 INFO testing_local odoo.modules.loading: loading stock/data/mail_templates.xml 
+2023-09-24 06:55:31,556 8292 INFO testing_local odoo.modules.loading: loading stock/data/default_barcode_patterns.xml 
+2023-09-24 06:55:31,606 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_data.xml 
+2023-09-24 06:55:31,706 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_sequence_data.xml 
+2023-09-24 06:55:31,756 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml 
+2023-09-24 06:55:31,796 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_stock_forecasted.xml 
+2023-09-24 06:55:31,916 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_stock_quantity.xml 
+2023-09-24 06:55:32,016 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_stock_reception.xml 
+2023-09-24 06:55:32,116 8292 INFO testing_local odoo.modules.loading: loading stock/report/stock_report_views.xml 
+2023-09-24 06:55:32,205 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_package_barcode.xml 
+2023-09-24 06:55:32,336 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_lot_barcode.xml 
+2023-09-24 06:55:32,396 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_location_barcode.xml 
+2023-09-24 06:55:32,496 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml 
+2023-09-24 06:55:32,616 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_deliveryslip.xml 
+2023-09-24 06:55:32,841 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_stockinventory.xml 
+2023-09-24 06:55:32,917 8292 INFO testing_local odoo.modules.loading: loading stock/report/report_stock_rule.xml 
+2023-09-24 06:55:33,131 8292 INFO testing_local odoo.modules.loading: loading stock/report/package_templates.xml 
+2023-09-24 06:55:33,196 8292 INFO testing_local odoo.modules.loading: loading stock/report/picking_templates.xml 
+2023-09-24 06:55:33,296 8292 INFO testing_local odoo.modules.loading: loading stock/report/product_templates.xml 
+2023-09-24 06:55:33,366 8292 INFO testing_local odoo.modules.loading: loading stock/report/product_packaging.xml 
+2023-09-24 06:55:33,426 8292 INFO testing_local odoo.modules.loading: loading stock/data/mail_template_data.xml 
+2023-09-24 06:55:33,467 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_menu_views.xml 
+2023-09-24 06:55:33,776 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_assign_serial_views.xml 
+2023-09-24 06:55:33,857 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml 
+2023-09-24 06:55:33,913 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml 
+2023-09-24 06:55:33,998 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml 
+2023-09-24 06:55:34,079 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_immediate_transfer_views.xml 
+2023-09-24 06:55:34,142 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml 
+2023-09-24 06:55:34,227 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml 
+2023-09-24 06:55:34,287 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml 
+2023-09-24 06:55:34,336 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_request_count.xml 
+2023-09-24 06:55:34,411 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml 
+2023-09-24 06:55:34,536 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml 
+2023-09-24 06:55:34,616 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml 
+2023-09-24 06:55:34,706 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/product_replenish_views.xml 
+2023-09-24 06:55:34,782 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml 
+2023-09-24 06:55:34,846 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_track_confirmation_views.xml 
+2023-09-24 06:55:34,906 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml 
+2023-09-24 06:55:34,966 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml 
+2023-09-24 06:55:35,037 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml 
+2023-09-24 06:55:35,106 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml 
+2023-09-24 06:55:35,176 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_label_type.xml 
+2023-09-24 06:55:35,216 8292 INFO testing_local odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml 
+2023-09-24 06:55:35,276 8292 INFO testing_local odoo.modules.loading: loading stock/views/res_partner_views.xml 
+2023-09-24 06:55:35,548 8292 INFO testing_local odoo.modules.loading: loading stock/views/product_strategy_views.xml 
+2023-09-24 06:55:35,691 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_lot_views.xml 
+2023-09-24 06:55:35,986 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [116, 117] 
+2023-09-24 06:55:36,007 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_scrap_views.xml 
+2023-09-24 06:55:36,256 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_quant_views.xml 
+2023-09-24 06:55:38,906 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_warehouse_views.xml 
+2023-09-24 06:55:39,036 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_move_line_views.xml 
+2023-09-24 06:55:39,336 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_picking_views.xml 
+2023-09-24 06:55:39,957 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [118] 
+2023-09-24 06:55:39,986 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_picking_type_views.xml 
+2023-09-24 06:55:40,247 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_move_views.xml 
+2023-09-24 06:55:40,787 8292 INFO testing_local odoo.modules.loading: loading stock/views/product_views.xml 
+2023-09-24 06:55:41,696 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_location_views.xml 
+2023-09-24 06:55:42,050 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml 
+2023-09-24 06:55:42,376 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_storage_category_views.xml 
+2023-09-24 06:55:42,541 8292 INFO testing_local odoo.modules.loading: loading stock/views/res_config_settings_views.xml 
+2023-09-24 06:55:42,876 8292 INFO testing_local odoo.modules.loading: loading stock/views/report_stock_traceability.xml 
+2023-09-24 06:55:42,997 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_template.xml 
+2023-09-24 06:55:43,098 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_rule_views.xml 
+2023-09-24 06:55:43,307 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_package_level_views.xml 
+2023-09-24 06:55:43,438 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_package_type_view.xml 
+2023-09-24 06:55:43,657 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.actions.act_window.view records with IDs: [119, 120] 
+2023-09-24 06:55:43,695 8292 INFO testing_local odoo.modules.loading: loading stock/views/stock_forecasted.xml 
+2023-09-24 06:55:43,706 8292 INFO testing_local odoo.modules.loading: Module stock: loading demo 
+2023-09-24 06:55:43,706 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_demo_pre.xml 
+2023-09-24 06:55:43,807 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_demo.xml 
+2023-09-24 06:55:43,927 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_demo2.xml 
+2023-09-24 06:55:44,016 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_orderpoint_demo.xml 
+2023-09-24 06:55:44,066 8292 INFO testing_local odoo.modules.loading: loading stock/data/stock_storage_category_demo.xml 
+2023-09-24 06:55:44,276 8292 INFO testing_local odoo.modules.loading: Module stock loaded in 16.01s, 4026 queries (+4026 other) 
+2023-09-24 06:55:44,286 8292 INFO testing_local odoo.modules.loading: Loading module stock_sms (51/51) 
+2023-09-24 06:55:45,048 8292 INFO testing_local odoo.modules.registry: module stock_sms: creating or updating database tables 
+2023-09-24 06:55:45,318 8292 INFO testing_local odoo.modules.loading: loading stock_sms/data/sms_data.xml 
+2023-09-24 06:55:45,366 8292 INFO testing_local odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml 
+2023-09-24 06:55:45,578 8292 INFO testing_local odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml 
+2023-09-24 06:55:45,626 8292 INFO testing_local odoo.modules.loading: loading stock_sms/security/ir.model.access.csv 
+2023-09-24 06:55:45,676 8292 INFO testing_local odoo.modules.loading: loading stock_sms/security/sms_security.xml 
+2023-09-24 06:55:45,766 8292 INFO testing_local odoo.modules.loading: Module stock_sms loaded in 1.48s, 140 queries (+140 other) 
+2023-09-24 06:55:45,766 8292 INFO testing_local odoo.modules.loading: 51 modules loaded in 21.92s, 5474 queries (+5474 extra) 
+2023-09-24 06:55:46,986 8292 INFO testing_local odoo.addons.base.models.ir_model: Deleting 1105@ir.ui.view (product.import_product_template) 
+2023-09-24 06:55:47,076 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [21297] 
+2023-09-24 06:55:47,076 8292 INFO testing_local odoo.models.unlink: User #1 deleted ir.ui.view records with IDs: [1105] 
+2023-09-24 06:55:47,581 8292 INFO testing_local odoo.modules.loading: Modules loaded. 
+2023-09-24 06:55:47,598 8292 INFO testing_local odoo.modules.registry: Registry loaded in 25.348s 
+2023-09-24 06:55:47,598 8292 INFO testing_local odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2023-09-24 06:55:47,606 8292 INFO testing_local odoo.modules.registry: Registry changed, signaling through the database 
+2023-09-24 06:55:47,836 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:47] "POST /web/dataset/call_button HTTP/1.1" 200 - 8547 10.115 17.895
+2023-09-24 06:55:47,876 8292 INFO testing_local odoo.addons.base.models.ir_http: Generating routing map for key None 
+2023-09-24 06:55:51,187 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:51] "GET /web HTTP/1.1" 200 - 91 0.129 3.193
+2023-09-24 06:55:51,660 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:51] "GET /web/assets/debug/web.assets_common.js HTTP/1.1" 304 - 5 0.005 0.006
+2023-09-24 06:55:51,660 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:51] "GET /web/assets/debug/web.assets_backend.css HTTP/1.1" 304 - 5 0.003 0.012
+2023-09-24 06:55:51,667 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:51] "GET /web/assets/debug/web.assets_common.css HTTP/1.1" 304 - 5 0.011 0.014
+2023-09-24 06:55:51,891 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:51] "GET /web/assets/debug/web.assets_backend.js HTTP/1.1" 304 - 5 0.005 0.004
+2023-09-24 06:55:52,006 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:52] "GET /web/assets/debug/web.assets_backend_prod_only.js HTTP/1.1" 304 - 5 0.000 0.017
+2023-09-24 06:55:56,796 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:56] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.023 0.006
+2023-09-24 06:55:57,482 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:57] "GET /websocket HTTP/1.1" 101 - 1 0.010 0.007
+2023-09-24 06:55:57,731 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:57] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 25 0.079 0.034
+2023-09-24 06:55:57,746 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:57] "POST /mail/init_messaging HTTP/1.1" 200 - 52 0.106 0.034
+2023-09-24 06:55:57,897 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:55:57] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.022 0.009
+2023-09-24 06:56:06,368 8292 INFO ? werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:06] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.000
+2023-09-24 06:56:06,769 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:06] "POST /web/action/load HTTP/1.1" 200 - 8 0.024 0.020
+2023-09-24 06:56:06,776 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:06] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.016 0.029
+2023-09-24 06:56:06,998 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:06] "POST /mail/inbox/messages HTTP/1.1" 200 - 7 0.012 0.010
+2023-09-24 06:56:07,136 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:07] "GET /web/image/mail.channel/1/avatar_128?unique=2de636f834f9730d9962613a57f6ddf589916148709e8917bacd9bf51c74715cda155ca0d67e33a54b8cc1e08067528141e36cfbb0e309e28df8e4315d2ee432 HTTP/1.1" 200 - 4 0.008 0.009
+2023-09-24 06:56:12,676 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:12] "POST /web/action/load HTTP/1.1" 200 - 12 0.000 0.040
+2023-09-24 06:56:13,116 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:13] "POST /web/dataset/call_kw/stock.picking.type/get_views HTTP/1.1" 200 - 35 0.060 0.060
+2023-09-24 06:56:13,296 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:13] "POST /web/dataset/call_kw/stock.picking.type/web_search_read HTTP/1.1" 200 - 16 0.027 0.022
+2023-09-24 06:56:16,006 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:16] "POST /web/action/load HTTP/1.1" 200 - 14 0.008 0.032
+2023-09-24 06:56:16,516 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:16] "POST /web/dataset/call_kw/product.template/get_views HTTP/1.1" 200 - 57 0.054 0.136
+2023-09-24 06:56:16,785 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:16] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 37 0.116 0.086
+2023-09-24 06:56:17,032 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=342&unique=1695533133000 HTTP/1.1" 200 - 9 0.012 0.033
+2023-09-24 06:56:17,328 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=335&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.032
+2023-09-24 06:56:17,328 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=344&unique=1695533133000 HTTP/1.1" 200 - 4 0.011 0.021
+2023-09-24 06:56:17,346 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=336&unique=1695533133000 HTTP/1.1" 200 - 4 0.001 0.026
+2023-09-24 06:56:17,406 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=330&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.028
+2023-09-24 06:56:17,406 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=349&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.025
+2023-09-24 06:56:17,416 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=348&unique=1695533133000 HTTP/1.1" 200 - 4 0.009 0.010
+2023-09-24 06:56:17,688 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=343&unique=1695533133000 HTTP/1.1" 200 - 4 0.016 0.024
+2023-09-24 06:56:17,688 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=351&unique=1695533133000 HTTP/1.1" 200 - 4 0.006 0.032
+2023-09-24 06:56:17,688 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=352&unique=1695533133000 HTTP/1.1" 200 - 4 0.009 0.022
+2023-09-24 06:56:17,806 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=339&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.079
+2023-09-24 06:56:17,806 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=329&unique=1695533133000 HTTP/1.1" 200 - 4 0.009 0.070
+2023-09-24 06:56:17,815 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:17] "GET /web/image?model=product.template&field=image_128&id=340&unique=1695533133000 HTTP/1.1" 200 - 4 0.010 0.070
+2023-09-24 06:56:18,036 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=341&unique=1695533133000 HTTP/1.1" 200 - 4 0.005 0.025
+2023-09-24 06:56:18,046 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=337&unique=1695533133000 HTTP/1.1" 200 - 4 0.001 0.030
+2023-09-24 06:56:18,046 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=350&unique=1695533133000 HTTP/1.1" 200 - 4 0.009 0.022
+2023-09-24 06:56:18,156 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=332&unique=1695533133000 HTTP/1.1" 200 - 4 0.015 0.006
+2023-09-24 06:56:18,156 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=331&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.021
+2023-09-24 06:56:18,207 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=353&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.016
+2023-09-24 06:56:18,366 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=333&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.030
+2023-09-24 06:56:18,401 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=334&unique=1695533133000 HTTP/1.1" 200 - 4 0.000 0.025
+2023-09-24 06:56:18,406 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=347&unique=1695533133000 HTTP/1.1" 200 - 4 0.009 0.011
+2023-09-24 06:56:18,506 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=346&unique=1695533133000 HTTP/1.1" 200 - 4 0.008 0.012
+2023-09-24 06:56:18,506 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=345&unique=1695533133000 HTTP/1.1" 200 - 4 0.008 0.010
+2023-09-24 06:56:18,546 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:18] "GET /web/image?model=product.template&field=image_128&id=338&unique=1695533133000 HTTP/1.1" 200 - 4 0.010 0.010
+2023-09-24 06:56:21,801 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:21] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 18 0.074 0.099
+2023-09-24 06:56:38,486 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:38] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 26 0.058 0.122
+2023-09-24 06:56:38,626 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:38] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.000 0.010
+2023-09-24 06:56:39,546 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:39] "GET /web/image/res.users/1/avatar_128 HTTP/1.1" 304 - 9 0.009 0.016
+2023-09-24 06:56:39,546 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:39] "GET /web/image/res.users/2/avatar_128 HTTP/1.1" 304 - 9 0.012 0.015
+2023-09-24 06:56:43,846 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:43] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 24 0.016 0.104
+2023-09-24 06:56:56,156 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:56:56] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 26 0.059 0.091
+2023-09-24 06:57:08,751 8292 INFO testing_local werkzeug: 127.0.0.1 - - [24/Sep/2023 06:57:08] "POST /web/dataset/call_kw/product.template/web_search_read HTTP/1.1" 200 - 24 0.022 0.063
